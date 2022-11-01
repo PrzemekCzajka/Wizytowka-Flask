@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1 class="Kontakt">
+            Witaj na mojej stronie domowej!
+        </h1>
+        <img src="{{url_for('static',filename='zam.jpg')}}">
+        <h2>
+            Kontakt:
+        </h2>
+        <ul class="lista">
+            <li><strong>Email:</strong> zamaskowany@o2.pl</li>
+            <li><strong>Telefon:</strong> Stacjonarny ;-)</li>
+        </ul>
+        <h3 class="Send">
+            Wyślij wiadomość:
+        </h3>
+        <form action="...">
+            <textarea name="nazwa"></textarea>
+            <button type="submit">Prześlij</button>
+        </form>
+
+    </body>
+</html>
